@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h3>access a Text Field</h3>
+
+<input type="text" id="myText" value="">
+
+
+<button onclick="myFunction()">Try it</button>
+<p id="demo">Tidak mencari Data...</p>
+
+<script>
+function myFunction() {
+  var myText = document.getElementById("myText").value;
+  document.getElementById("demo").innerHTML = "Sedang Mencari " + myText + "...";
+}
+</script>
+
+</body>
+</html>
